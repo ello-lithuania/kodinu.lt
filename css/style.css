@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+.small-padding {
+
+}
+.normal-padding {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+.display-flex-item {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* Top navbar section	*/
+.promo-navbar-section {
+	background-color: #8EC5FC;
+	border-bottom: .5vh solid blue;
+	position: relative;
+	background: url('../img/navbar-promo-bg.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg-image-layer {
+	min-height: 20vh;
+	padding-top: 10vh;
+	padding-bottom: 13vh;
+background-image: linear-gradient( 123.5deg,  rgba(244,219,251,.7) 29.3%, rgba(255,214,214,.7) 67.1% );
+}
+.promo-navbar-section .navbar-container {
+	position: absolute;
+	left: 0;
+	right: 0;
+    bottom: -5vh;
+    margin: auto;
+}
+.promo-navbar-section .navbar-container svg {
+	font-size: 2.5em;
+}
+/* Quotes big promo section */
+.quotes-promo-section {
+
+}
+.carousel-smaller-image  {
+	margin-top: 5%;
+	height: 90%; 
+	width: 100%;
+}
+
+/* show news as TV */
+.news-tv h2 {
+	position: absolute;
+    bottom: 0;
+    background: black;
+    color: white;
+    padding: .5em 2em;
+    margin-bottom: 0;
+    left: 0;
+}
